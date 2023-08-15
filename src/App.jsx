@@ -1,26 +1,18 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
-import { Routes, Route, Link } from "react-router-dom";
-import Red from "./components/Red";
-import Blue from "./components/Blue";
-import Home from "./components/Home";
+// import { Routes, Route } from "react-router-dom";
+// import Red from "./components/Red";
+// import Blue from "./components/Blue";
+// import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import MainContainer from "./components/MainContainer";
 
 function App() {
   return (
     <>
       <div id="container">
-        <div id="navbar">
-          <Link to="/">Home</Link>
-          <Link to="/blue">Blue</Link>
-          <Link to="/red">Red</Link>
-        </div>
-        <div id="main-section">
-          <Routes>
-            <Route path="/" element={Home()} />
-            <Route path="/blue" element={Blue()} />
-            <Route path="/red" element={Red()} />
-          </Routes>
-        </div>
+        <Navbar></Navbar>
+        <MainContainer></MainContainer>
       </div>
     </>
   );

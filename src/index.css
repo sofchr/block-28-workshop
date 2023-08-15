@@ -17,9 +17,12 @@ body>div {
 
 #container>div {
   display: flex;
+
 }
 
-#navbar {
+.navbar {
+  display: flex;
+  align-items: center;
   padding: 2em;
   justify-content: space-evenly;
 }
