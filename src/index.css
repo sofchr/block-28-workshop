@@ -48,6 +48,11 @@ body>div {
   color: white;
 }
 
+.yellow {
+  background-color: rgb(223, 223, 64);
+  color: white;
+}
+
 .home {
   background-color: rgb(114, 177, 108);
   color: white;
